@@ -1,0 +1,72 @@
+* {
+  box-sizing: border-box;
+  margin: 0
+}
+body,
+html {
+  background-color: #000;
+  color: #fff;
+  font-family: sans-serif;
+  height: 100%;
+  width: 100%;
+}
+button {
+  animation: askButtonColorChange 5s linear infinite alternate;
+  border: blueviolet;
+  background-color: blueviolet;
+  color: #fff;
+  transition: filter .2s;
+  width: 100%;
+}
+button:hover {
+  filter: brightness(1.2);
+  cursor: pointer
+}
+button,
+input {
+  border-radius: 2.5rem;
+  font-size: 1.25rem;
+  margin-bottom: 2.25rem;
+  padding: 1.25rem
+}
+#container {
+  align-items: center;
+  background-color: inherit;  
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  width: 100%;
+}
+#content {
+  max-width: 25rem;
+  text-align: center;
+}
+#imageCrystalBall {
+  animation: crystalBallShine 5s linear alternate infinite
+}
+input {
+  border: white solid;
+  width: 25rem
+}
+input:focus {
+  outline: blueviolet solid;
+}
+h1 {
+  margin-bottom: 2.25rem;
+  opacity: .9
+}
+@keyframes askButtonColorChange {
+  0% {background-color: #8F44AF}
+  100% {background-color: #211F93}
+}
+@keyframes crystalBallShine {
+  50% {filter: brightness(2.7)}
+}
+p {
+  margin-bottom: 2.25rem;
+  opacity: .7;
+}
+#responseElement {
+  opacity: 0;
+  transition: opacity 1s
+}
