@@ -10,8 +10,6 @@ It was developed with pure HTML, CSS, and JavaScript.
    1. If the input field is empty, show an error message asking for some text.
 2. The typed question is shown again beneath the input field, with a random response to that below this.
 
-# Script
-
 # Objects
 
 ## questionButton
