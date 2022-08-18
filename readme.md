@@ -112,3 +112,7 @@ It was developed with pure HTML, CSS, and JavaScript.
       </tr>                  
    </tbody>
 </table>
+
+# Copyright
+
+- Icon of crystal ball made by **googlefonts** from **github.com**
