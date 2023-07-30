@@ -24,7 +24,9 @@ Crafted with pure HTML, CSS, and JS to create a seamless user experience.
 During the development of this project, I acquired valuable skills and knowledge:
 
 📌 Implemented captivating CSS animations.
+
 📌 Worked extensively with JavaScript objects.
+
 📌 Embraced JavaScript arrow functions for concise and efficient coding.
 
 
