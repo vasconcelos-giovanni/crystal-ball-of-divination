@@ -1,118 +1,82 @@
+# Divination Crystal Ball
+
+## 📌  Project idea
+
+The Divination Crystal Ball is a fascinating divination website with a beautiful interface that allows users to type a question and receive a random response.
+
+## 💡 Key Features
+✅ Interactive interface that invites users to ask questions.
+
+✅ Randomly generated responses for an element of surprise and fun.
+
+## 🔧 Technologies
+
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+
+## 🏗️ Development Details
+
+Crafted with pure HTML, CSS, and JS to create a seamless user experience.
+
+## 📚 My learning Journey
+
+During the development of this project, I acquired valuable skills and knowledge:
+
+📌 Implemented captivating CSS animations.
+📌 Worked extensively with JavaScript objects.
+📌 Embraced JavaScript arrow functions for concise and efficient coding.
+
+
+# 🖼️ Screenshots
+
 # Introduction
 
 It is a divination program. The user types a question, and a random response is shown.
 
 It was developed with pure HTML, CSS, and JavaScript.
 
-# Workflow
+# 📔 Documentation
+
+## Workflow
 
 1. The user types a question in the input field, and click the button with "Ask" within.
    1. If the input field is empty, show an error message asking for some text.
 2. The typed question is shown again beneath the input field, with a random response to that below this.
 
-# Objects
+## Objects
 
-## questionButton
+### questionButton
 
-<table>
-   <thead>
-      <th>Attribute</th>
-      <th>Definition</th>
-   </thead>
-   <tbody>
-      <tr>
-         <td>questionButton</td>
-         <td>It represents the ask &lt;button> clicked.</td>
-      </tr>      
-   </tbody>
-</table>
-<table>
-   <thead>
-      <th>Method</th>
-      <th>Definition</th>
-   </thead>
-   <tbody>
-      <tr>
-         <td>askQuestion</td>
-         <td>Button action that shows the response to the question.</td>
-      </tr> 
-      <tr>
-         <td>enable</td>
-         <td>It enables the button.</td>
-      </tr>
-      <tr>
-         <td>disable</td>
-         <td>It disables the button.</td>
-      </tr>      
-   </tbody>
-</table>
+| Attribute      | Definition                                     |
+| -------------- | ---------------------------------------------- |
+| questionButton | It represents the ask <button> clicked.       |
 
-## responseElement
+| Method       | Definition                                      |
+| ------------ | ----------------------------------------------- |
+| askQuestion  | Button action that shows the response to the question. |
+| enable       | It enables the button.                         |
+| disable      | It disables the button.                        |
 
-<table>
-   <thead>
-      <th>Attribute</th>
-      <th>Definition</th>
-   </thead>
-   <tbody>
-      <tr>
-         <td>possibleResponses</td>
-         <td>Possible responses that are randomly chosen.</td>
-      </tr>
-      <tr>
-         <td>response</td>
-         <td>It represents the &lt;div> that will show the question response.</td>
-      </tr>
-   </tbody>
-</table>
-<table>
-   <thead>
-      <th>Method</th>
-      <th>Definition</th>
-   </thead>
-   <tbody>
-      <tr>
-         <td>hideResponse</td>
-         <td>It hides the HTML response element.</td>
-      </tr>
-      <tr>
-         <td>randomPossibleResponseIndex</td>
-         <td>It returns a random index number response for some response to be picked up from the responses array.</td>
-      </tr>
-      <tr>
-         <td>showResponse</td>
-         <td>It makes the response visible to the user.</td>
-      </tr>      
-   </tbody>
-</table>
+### responseElement
 
-## questionInput
+| Attribute         | Definition                                         |
+| ----------------- | -------------------------------------------------- |
+| possibleResponses | Possible responses that are randomly chosen.      |
+| response          | It represents the <div> that will show the question response. |
 
-<table>
-   <thead>
-      <th>Attribute</th>
-      <th>Definition</th>
-   </thead>
-   <tbody>
-      <tr>
-         <td>question</td>
-         <td>It represents the input question of the user.</td>
-      </tr>
-   </tbody>
-</table>
-<table>
-   <thead>
-      <th>Method</th>
-      <th>Definition</th>
-   </thead>
-   <tbody>
-      <tr>
-         <td>isEmpty</td>
-         <td>It verifies whether the user has typed something.</td>
-      </tr>                  
-   </tbody>
-</table>
+| Method               | Definition                                                   |
+| -------------------- | ------------------------------------------------------------ |
+| hideResponse         | It hides the HTML response element.                         |
+| randomPossibleResponseIndex | It returns a random index number response for some response to be picked up from the responses array. |
+| showResponse         | It makes the response visible to the user.                  |
 
-# Copyright
+### questionInput
 
-- Icon of crystal ball made by **googlefonts** from **github.com**
+| Attribute  | Definition                                     |
+| ---------- | ---------------------------------------------- |
+| question   | It represents the input question of the user. |
+
+| Method    | Definition                                    |
+| --------- | --------------------------------------------- |
+| isEmpty   | It verifies whether the user has typed something. |
