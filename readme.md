@@ -32,12 +32,6 @@ During the development of this project, I acquired valuable skills and knowledge
 
 ![Screenshot](src/img/screenshot.png)
 
-# Introduction
-
-It is a divination program. The user types a question, and a random response is shown.
-
-It was developed with pure HTML, CSS, and JavaScript.
-
 # 📔 Documentation
 
 ## Workflow
