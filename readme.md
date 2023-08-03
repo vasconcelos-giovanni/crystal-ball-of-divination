@@ -6,7 +6,7 @@ The Divination Crystal Ball is a fascinating divination website with a beautiful
 
 ## 💿 Live Demo
 
-Check out the live demo here: [Learning Vue at W3](https://vasconcelos-giovanni.github.io/divination-crystal-ball)
+Check out the live demo here: [Divination Crystal Ball](https://vasconcelos-giovanni.github.io/divination-crystal-ball)
 
 ## 💡 Key Features
 
