@@ -4,7 +4,12 @@
 
 The Divination Crystal Ball is a fascinating divination website with a beautiful interface that allows users to type a question and receive a random response.
 
+## 💿 Live Demo
+
+Check out the live demo here: [Learning Vue at W3](https://vasconcelos-giovanni.github.io/divination-crystal-ball)
+
 ## 💡 Key Features
+
 ✅ Interactive interface that invites users to ask questions.
 
 ✅ Randomly generated responses for an element of surprise and fun.
